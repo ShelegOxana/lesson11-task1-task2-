@@ -1,0 +1,5 @@
+Year1 = int(input('Year of birth: '))
+Year2 = int(input('Year now: '))
+Month1 = int(input('Month of birth: '))
+Month2 = int(input('Month now: '))
+print('Full years: ', (((Year2 - Year1) * 12 + (Month2 - Month1)) // 12))
